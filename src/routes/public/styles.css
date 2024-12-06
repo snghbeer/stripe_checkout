@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  background: #1e0028;
+  color: #f0f0f0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.card {
+
+  background: linear-gradient(157.81deg,
+      #a266b7 -43.27%,
+      #9f5ab6 -21.24%,
+      #bf50e3 12.19%,
+      #5e027d 29.82%,
+      #a66bba 51.94%,
+      #37003b 120.29%);
+  border-radius: 25px;
+  padding: 2%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset !important;
+
+  }
+
+.cardHeader {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.emoji {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 100px;
+}
+
+ion-icon {
+  font-size: 64px;
+  color: #77ff9b;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+  }
+
+  .emoji {
+    font-size: 60px;
+  }
+
+  ion-icon {
+    font-size: 40px;
+  }
+}
